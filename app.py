@@ -12,10 +12,6 @@ def main():
 
 
     html_temp = """
-       <style>
-    body {
-    background-image: url("https://i.pinimg.com/originals/de/0f/4b/de0f4bf6e8075312a6eb20ad7044571a.jpg");
-    background-size: cover;
   
     }
     </style>
