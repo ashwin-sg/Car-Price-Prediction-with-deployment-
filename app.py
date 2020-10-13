@@ -70,7 +70,7 @@ def main():
 
     if st.button('About'):
         st.success("Made by Ashwin Ghonmode - A Data Science Enthusiast")
-        st.success("Github Link: ")
+        st.success("Github Link: https://github.com/ashwin-sg/Used-Car-Price-Prediction ")
 
 
 if __name__=="__main__":
