@@ -14,8 +14,8 @@ def main():
     html_temp = """
        <style>
     body {
-    background-image: url("https://wallpapercave.com/wp/H6Rj7PM.jpg");
-    background-size: auto;
+    background-image: url("https://i.pinimg.com/originals/de/0f/4b/de0f4bf6e8075312a6eb20ad7044571a.jpg");
+    background-size: cover;
   
     }
     </style>
@@ -38,9 +38,9 @@ def main():
     else:
         Transmission=0
 
-    Owner_Type = st.text_input("Enter number of previous owner/owners - for example: 1,2 or 3 etc.", "")
+    Owner_Type = st.text_input("Enter Number of Previous Owner/Owners - for example: 1,2 or 3 etc.", "")
 
-    Seats = st.text_input("Enter number of desired seats from options (2,4,5,6,7,8,9,10)", "")
+    Seats = st.text_input("Enter Number of Desired Seats from options (2,4,5,6,7,8,9,10)", "")
 
     Brand = st.selectbox("Select Car Brand/ Compnay", ['select','Maruti','Hyundai', 'Honda', 'Toyota', 'Mercedes-Benz','Volkswagen'])
     if (Brand=='Maruti'):
@@ -58,9 +58,9 @@ def main():
 
     Age = st.text_input("Age of Car in Years (select between 1 to 22)", "")
 
-    Engine_CC = st.selectbox("Select the engine capacity in CC", ['select', 750, 1000, 1200, 1500, 1800, 2500, 3500, 4500, 5500])
+    Engine_CC = st.selectbox("Select the Engine Capacity in CC", ['select', 750, 1000, 1200, 1500, 1800, 2500, 3500, 4500, 5500])
 
-    Kms_Driven = st.selectbox("Select cars' total kilometers driven", ['select', 10000, 20000, 30000, 40000, 50000, 75000, 100000, 150000])
+    Kms_Driven = st.selectbox("Select Total Kilometers Driven by the Car", ['select', 10000, 20000, 30000, 40000, 50000, 75000, 100000, 150000])
 
 
     if st.button('Predict'):
